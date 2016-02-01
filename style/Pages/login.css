@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/*边框阴影样式*/
+/*字体阴影样式*/
+/*圆角样式*/
+/*圆角顶角样式*/
+/*圆角底脚样式*/
+/*过渡样式*/
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  min-width: 1300px;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font: 16px 微软雅黑, sans-serif; }
+
+.loginBtn {
+  background-color: #719145;
+  display: inline-block;
+  padding: 2px 20px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer; }
+
+.Persion_Avatar {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer; }
+  .Persion_Avatar .avaterContainer {
+    width: 45px;
+    height: 45px;
+    position: relative; }
+    .Persion_Avatar .avaterContainer .avater {
+      width: 45px;
+      height: 45px;
+      position: absolute; }
+    .Persion_Avatar .avaterContainer .checkBox {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      right: 1px;
+      bottom: 1px;
+      background-color: white; }
+    .Persion_Avatar .avaterContainer .checked {
+      background-color: #00FF00; }
+  .Persion_Avatar .name {
+    margin-top: 10px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    width: 45px; }
+
+.container_login {
+  background-image: url("../../images/bj_02.png");
+  width: 100%;
+  height: 100%;
+  min-height: 670px;
+  background-size: auto;
+  padding: 0px; }
+  .container_login .title {
+    position: absolute;
+    left: 50%;
+    margin-left: -156px;
+    background-image: url("../../images/logo-bj_03.png");
+    width: 312px;
+    height: 112px; }
+    .container_login .title div {
+      text-align: center; }
+    .container_login .title h4 {
+      line-height: 1; }
+  .container_login .register_container {
+    background-color: #D6F6AA;
+    width: 100px;
+    margin-left: 150px;
+    text-align: center;
+    min-height: 100px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    -ms-border-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    -ms-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px; }
+    .container_login .register_container div {
+      margin-top: 10px; }
+  .container_login .slide_container {
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    overflow-x: hidden; }
+    .container_login .slide_container .pluins_container {
+      width: 100%;
+      height: 100%;
+      position: relative; }
+      .container_login .slide_container .pluins_container .pluins_one {
+        background-color: #DCDCDC;
+        width: 600px;
+        height: 300px;
+        position: absolute;
+        left: 100px;
+        top: 50%;
+        margin-top: -230px;
+        -webkit-transition: rotate(-2deg);
+        -moz-transition: rotate(-2deg);
+        -ms-transition: rotate(-2deg);
+        transform: rotate(-2deg);
+        border: 2px solid #D5D5D5;
+        -webkit-box-shadow: 2px 1px 2px #5F6E49;
+        -moz-box-shadow: 2px 1px 2px #5F6E49;
+        -ms-box-shadow: 2px 1px 2px #5F6E49;
+        box-shadow: 2px 1px 2px #5F6E49; }
+      .container_login .slide_container .pluins_container .pluins_two {
+        background-color: #DCDCDC;
+        width: 600px;
+        height: 300px;
+        position: absolute;
+        left: 100px;
+        top: 50%;
+        margin-top: -230px;
+        -webkit-transition: rotate(1deg);
+        -moz-transition: rotate(1deg);
+        -ms-transition: rotate(1deg);
+        transform: rotate(1deg);
+        border: 2px solid #D5D5D5;
+        -webkit-box-shadow: 2px 1px 2px #5F6E49;
+        -moz-box-shadow: 2px 1px 2px #5F6E49;
+        -ms-box-shadow: 2px 1px 2px #5F6E49;
+        box-shadow: 2px 1px 2px #5F6E49; }
+      .container_login .slide_container .pluins_container .pluins_three {
+        background-color: #EEEEEE;
+        width: 590px;
+        height: 300px;
+        position: absolute;
+        left: 100px;
+        top: 50%;
+        margin-top: -230px;
+        -webkit-transition: rotate(2.5deg);
+        -moz-transition: rotate(2.5deg);
+        -ms-transition: rotate(2.5deg);
+        transform: rotate(2.5deg);
+        border: 1px solid #EEEEEE;
+        overflow: hidden;
+        -webkit-box-shadow: 2px 1px 2px #5F6E49;
+        -moz-box-shadow: 2px 1px 2px #5F6E49;
+        -ms-box-shadow: 2px 1px 2px #5F6E49;
+        box-shadow: 2px 1px 2px #5F6E49; }
+        .container_login .slide_container .pluins_container .pluins_three img {
+          width: 570px;
+          height: 280px;
+          margin-top: 10px;
+          margin-left: 10px;
+          display: none; }
+    .container_login .slide_container .triangle_border_left {
+      width: 0;
+      height: 0;
+      border-width: 30px 30px 30px 0;
+      border-style: solid;
+      border-color: transparent rgba(0, 0, 0, 0.1) transparent transparent;
+      /*透明 灰 透明 透明 */
+      position: relative; }
+    .container_login .slide_container .triangle_border_left span {
+      display: block;
+      width: 0;
+      height: 0;
+      border-width: 28px 28px 28px 0;
+      border-style: solid;
+      border-color: transparent rgba(0, 0, 0, 0.2) transparent transparent;
+      /*透明 黄 透明 透明 */
+      position: absolute;
+      top: -28px;
+      left: 1px; }
+    .container_login .slide_container .triangle_border_right {
+      width: 0;
+      height: 0;
+      border-width: 30px 0 30px 30px;
+      border-style: solid;
+      border-color: transparent transparent transparent rgba(0, 0, 0, 0.1);
+      /*透明 透明 透明 灰*/
+      position: relative; }
+    .container_login .slide_container .triangle_border_right span {
+      display: block;
+      width: 0;
+      height: 0;
+      border-width: 28px 0 28px 28px;
+      border-style: solid;
+      border-color: transparent transparent transparent rgba(0, 0, 0, 0.2);
+      /*透明 透明 透明 黄*/
+      position: absolute;
+      top: -28px;
+      left: -29px; }
+    .container_login .slide_container .left_btn {
+      margin-top: 120px;
+      display: inline-block;
+      cursor: pointer; }
+    .container_login .slide_container .right_btn {
+      margin-top: 120px;
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      cursor: pointer; }
+
+/*# sourceMappingURL=login.css.map */

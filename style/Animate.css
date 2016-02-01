@@ -1,0 +1,92 @@
+	.fadeInRight{
+	  -o-animation-name: FadeInRight;
+	  -o-animation-duration: 1s;
+	  -o-animation-fill-mode: both;
+	  -webkit-animation-name: FadeInRight;
+	  -webkit-animation-duration: 1s;
+	  -webkit-animation-fill-mode: both;
+	  -moz-animation-name: FadeInRight;
+	  -moz-animation-duration: 1s;
+	  -moz-animation-fill-mode: both;
+	  animation-name: FadeInRight;
+	  animation-duration: 1s;
+	  animation-fill-mode: both;
+	}
+	
+	@keyframes FadeInRight
+    {
+        0% {opacity:0;transform: translateX(40px);}
+		100% {opacity: 1;transform: translateX(0px);}
+    }
+
+    @-moz-keyframes FadeInRight /* Firefox */
+    {
+		0% {opacity:0;transform: translateX(40px);}
+		100% {opacity: 1;transform: translateX('0px');}
+    }
+
+    @-webkit-keyframes FadeInRight /* Safari ºÍ Chrome */
+    {
+		0% {opacity:0;transform: translateX(0px);}
+		100% {opacity: 1;transform: translateX(0px);}
+    }
+
+    @-o-keyframes FadeInRight /* Opera */
+    {
+		0% {opacity:0;transform: translateX(40px);}
+		100% {opacity: 1;transform: translateX(0px);}
+    }
+	
+	.fadeIn{
+	  -o-animation-name: FadeIn;
+	  -o-animation-duration: 1s;
+	  -o-animation-fill-mode: both;
+	  -webkit-animation-name: FadeIn;
+	  -webkit-animation-duration: 1s;
+	  -webkit-animation-fill-mode: both;
+	  -moz-animation-name: FadeIn;
+	  -moz-animation-duration: 1s;
+	  -moz-animation-fill-mode: both;
+	  animation-name: FadeIn;
+	  animation-duration: 1s;
+	  animation-fill-mode: both;
+	}
+	
+	.fadeIn2{
+	  -o-animation-name: FadeIn;
+	  -o-animation-duration: 1.1s;
+	  -o-animation-fill-mode: both;
+	  -webkit-animation-name: FadeIn;
+	  -webkit-animation-duration: 1.1s;
+	  -webkit-animation-fill-mode: both;
+	  -moz-animation-name: FadeIn;
+	  -moz-animation-duration: 1.1s;
+	  -moz-animation-fill-mode: both;
+	  animation-name: FadeIn;
+	  animation-duration: 1.1s;
+	  animation-fill-mode: both;
+	}
+	
+	@keyframes FadeIn
+    {
+        0% {opacity:0;}
+		100% {opacity: 1;}
+    }
+
+    @-moz-keyframes FadeIn /* Firefox */
+    {
+		0% {opacity:0;}
+		100% {opacity: 1;}
+    }
+
+    @-webkit-keyframes FadeIn /* Safari ºÍ Chrome */
+    {
+		0% {opacity:0;}
+		100% {opacity: 1;}
+    }
+
+    @-o-keyframes FadeIn /* Opera */
+    {
+		0% {opacity:0;}
+		100% {opacity: 1;}
+    }

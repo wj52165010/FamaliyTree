@@ -1,0 +1,37 @@
+﻿/************************Fx(Css3元素效果样式)***********************/
+    /*背景色转换*/
+    @keyframes ColorChange
+    {
+        0%   {background-color:red;}
+        25%  {background-color:blue;}
+        50%  {background-color:yellow;}
+        75%  {background-color:green;}
+        100% {background-color:white;}
+    }
+
+    @-moz-keyframes ColorChange /* Firefox */
+    {
+        0%   {background-color:red;}
+        25%  {background-color:blue;}
+        50%  {background-color:yellow;}
+        75%  {background-color:green;}
+        100% {background-color:white;}
+    }
+
+    @-webkit-keyframes ColorChange /* Safari 和 Chrome */
+    {
+        0%   {background-color:red;}
+        25%  {background-color:blue;}
+        50%  {background-color:yellow;}
+        75%  {background-color:green;}
+        100% {background-color:white;}
+    }
+
+    @-o-keyframes ColorChange /* Opera */
+    {
+        0%   {background-color:red;}
+        25%  {background-color:blue;}
+        50%  {background-color:yellow;}
+        75%  {background-color:green;}
+        100% {background-color:white;}
+    }

@@ -1,0 +1,446 @@
+﻿/************************Fx弹窗样式***********************/
+
+/*遮罩容器*/
+.Fx_Alert_Mask_Container {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width:100%;
+    height:100%;
+    z-index:10000;
+    font-size: 1.4em;
+}
+/*遮罩*/
+.Fx_Alert_Mask {
+    position:absolute;
+    filter:alpha(opacity=10);
+    -moz-opacity:0.1;
+    -khtml-opacity: 0.1;
+    background-color: rgba(0,0,0,0.1);
+    text-align:center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width:100%;
+    height:100%;
+    z-index:1000;
+}
+/*窗体容器样式*/
+.Fx_Alert_Window_Container {
+    position: fixed;
+    width:60%;
+    top: 40%;
+    right: 50%;
+    z-index:1001;
+}
+/*窗体边框*/
+.Fx_Alert_Window_Container .Alert_Border {
+    border:5px solid #ACACAC;
+    border-radius: 5px !important;
+    z-index:1002;
+}
+
+/*窗体标题栏*/
+.Fx_Alert_Window_Container .Alert_Caption {
+    text-align:left;
+    background-color:#376EA5;
+    color:white;
+    padding:5px;
+}
+
+/*窗体内容栏*/
+.Fx_Alert_Window_Container .Alert_Content {
+    background-color:white;
+    padding:10px;
+    text-align:left;
+}
+
+/*窗体操作栏*/
+.Fx_Alert_Window_Container .Alert_Option{
+    background-color:white;
+    padding:5px;
+    text-align:right;
+    background-color:#EEEEEE;
+}
+
+/*操作按钮*/
+.Fx_Alert_Window_Container .BtnItem {
+    display:inline-block;
+    border-radius:5px !important;
+    background-color:#0378FE;
+    color:white;
+    padding:5px 10px;
+    font-size:0.8em;
+    margin-left: 5px;
+}
+
+/*提示窗体样式*/
+.Fx_Alert_TipWindow_Container {
+    position: fixed;
+    width:80%;
+    right: 50%;
+    top:0px;
+    z-index:1001;
+    filter:alpha(opacity=50);   
+    -moz-opacity:0.5;   
+    -khtml-opacity: 0.5;   
+    opacity: 0.5;   
+}
+
+@media all and (max-width:800px) {
+	.Fx_Alert_TipWindow_Container {
+		position: fixed;
+		min-width:80%;
+		right: 50%;
+		top:0px;
+		z-index:1001;
+		filter:alpha(opacity=50);   
+		-moz-opacity:0.5;   
+		-khtml-opacity: 0.5;   
+		opacity: 0.5;   
+	}
+}
+
+
+/*窗体边框*/
+.Fx_Alert_TipWindow_Container .Alert_Border {
+    border:5px solid #ACACAC;
+    border-radius: 5px !important;
+    z-index:1002;
+
+}
+
+/*窗体标题栏*/
+.Fx_Alert_TipWindow_Container .Alert_Caption {
+    text-align:left;
+    background-color:#34455E;
+    color:white;
+    padding:5px;
+}
+
+/*窗体标题栏中的操作栏*/
+.Fx_Alert_TipWindow_Container .Alert_Caption .Alert_OptionBar {
+    float:right;
+}
+
+/*窗体标题栏中的操作栏中删除按钮*/
+.Fx_Alert_TipWindow_Container .Alert_Caption .Alert_OptionBar .Del_Btn {
+    width: 20px;
+    text-align: center;
+}
+
+/*窗体内容栏*/
+.Fx_Alert_TipWindow_Container .Alert_Content {
+    background-color:white;
+    padding:10px;
+    text-align:left;
+}
+
+/*****************加载中窗体样式******************/
+.Fx_Alert_TipWindow_spinner {
+    margin: 0px auto;
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    font-size: 10px;
+    position: fixed;
+    top: 50%;
+}
+ 
+.Fx_Alert_TipWindow_spinner > div {
+  background-color: #67CF22;
+  height:60px;
+  width: 6px;
+  margin:0px 2px;
+  display: inline-block;
+   
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.Fx_Alert_TipWindow_spinner .rect1 {
+  -webkit-animation-delay: -1.2s;
+  animation-delay: -1.2s;
+}
+ 
+.Fx_Alert_TipWindow_spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+ 
+.Fx_Alert_TipWindow_spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+ 
+.Fx_Alert_TipWindow_spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+ 
+.Fx_Alert_TipWindow_spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+ 
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+ 
+@keyframes stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+/*****************停靠窗体样式******************/
+/******窗体容器******/
+.Fx_Dock_Window_Container{
+	position:absolute;
+	z-index: 1000;
+}
+/******窗体表框******/
+.Fx_Dock_Window_Container .Alert_Border {
+    border:5px solid #ACACAC;
+    border-radius: 5px !important;
+    z-index:1002;
+	width:100%;
+	height:100%;
+}
+/******窗体标题栏******/
+.Fx_Dock_Window_Container .Alert_Border .Alert_Caption{
+	text-align:center;
+    background-color:#376EA5;
+    color:white;
+	width:100%;
+	padding:5px 0px;
+}
+/******窗体内容栏******/
+.Fx_Dock_Window_Container .Alert_Border .Alert_Content{
+    background-color:white;
+	width:100%;
+	padding:5px 0px;
+}
+/******窗体操作栏******/
+.Fx_Dock_Window_Container .Alert_Border .Alert_Option{
+	text-align:center;
+    padding:5px 0px;
+    background-color:#EEEEEE;
+	width:100%;
+}
+/******操作按钮******/
+ .Fx_Dock_Window_Container .BtnItem {
+    display:inline-block;
+    border-radius:5px !important;
+    background-color:#0378FE;
+    color:white;
+    padding:5px 10px;
+    font-size:0.8em;
+}
+/******操作按钮间隙******/
+ .Fx_Dock_Window_Container .BtnSpace{
+	display:inline-block;
+	height:100%;
+	width:10px;
+	background-color:#0378FE;
+ }
+
+
+ /******气泡提示窗样式******/
+.Fx_Bubble_Container {
+    border: 1px solid #CCC;
+    padding: 2px 20px 2px 5px;
+    color: #666;
+    position: absolute;
+    display: none;
+    line-height: 20px;
+    background-color: #FFF;
+    font-size: 1.4em;
+}
+
+.Fx_Bubble_Container .dec_top {
+    display: block;
+    height: 8px;
+    overflow: hidden;
+    position: absolute;
+    left: 10px;
+    width: 17px;
+    top: -8px;
+}
+.Fx_Bubble_Container .dec_bottom{
+	display: block;
+	height: 8px;
+	overflow: hidden;
+	position: absolute;
+	left: 10px;
+	width: 17px;
+	bottom: -8px;
+}
+
+.Fx_Bubble_Container .dec1 {
+    color: #CCC;
+}
+.Fx_Bubble_Container .dec_top .dec2 {
+    top: 0px;
+    color: white;
+}
+.Fx_Bubble_Container .dec_bottom .dec2 {
+	top: -10px;
+	color: #FFF;
+}
+
+.Fx_Bubble_Container .dec_top s {
+    font-family: simsun;
+    font-size: 16px;
+    height: 19px;
+    left: 0px;
+    line-height: 21px;
+    position: absolute;
+    text-decoration: none;
+    width: 17px;
+    top: -1px;
+}
+
+.Fx_Bubble_Container .dec_bottom s {
+	font-family: simsun;
+	font-size: 16px;
+	height: 19px;
+	left: 0px;
+	line-height: 21px;
+	position: absolute;
+	text-decoration: none;
+	width: 17px;
+	top: -9px;
+}
+
+/*****************进度条样式******************/
+.Fx_Alert_ProgressBar {
+    margin: 0px auto;
+    width: 50%;
+    line-height: 20px;
+    text-align: center;
+    font-size: 10px;
+    position: fixed;
+    top: 50%;
+    font-size:1.2em;
+    border:1px solid #4C9ED9;
+    color:#CACACA;
+}
+
+.Fx_Alert_ProgressBar_Bg {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0px;
+    left: 0px;
+    background-color: #4C9ED9;
+    height: 20px;
+    z-index: -1;
+}
+
+/*窗体边框*/
+.Fx_Alert_TipWindow_Container .Alert_NoBorder {
+    z-index:1002;
+}
+
+.Fx_Alert_TipWindow_Container .Alert_NoCaption {
+    text-align: center;
+    background-color: #EFF1F3;
+    color: black;
+    padding: 15px;
+    -webkit-border-top-right-radiuss:5px !important;
+	-moz-border-top-right-radius:5px !important;
+	-ms-border-top-right-radius:5px !important;
+	border-top-right-radius:5px !important;
+    -webkit-border-top-left-radiuss:5px !important;
+	-moz-border-top-left-radius:5px !important;
+	-ms-border-top-left-radius:5px !important;
+	border-top-left-radius:5px !important;
+}
+
+.Fx_Alert_TipWindow_Container .Alert_NoContent {
+    background-color: #EFF1F3;
+    padding: 10px;
+    text-align: center;
+    color:#0977FD;
+    border-top:2px solid #DEDEDE;
+     -webkit-border-bottom-right-radiuss:5px !important;
+	-moz-border-bottom-right-radius:5px !important;
+	-ms-border-bottom-right-radius:5px !important;
+	border-bottom-right-radius:5px !important;
+    -webkit-border-bottom-left-radiuss:5px !important;
+	-moz-border-bottom-left-radius:5px !important;
+	-ms-border-bottom-left-radius:5px !important;
+	border-bottom-left-radius:5px !important;
+} 
+
+/*******************弹窗样式*************************/
+.Fx_Alert_TipWindow_Container .Alert_CaptionA{
+	color: white;
+	padding: 10px;
+	background-color:#1CAF9A;
+	border-top-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+}
+
+.Fx_Alert_TipWindow_Container .Alert_ContentA{
+	background-color: white;
+	padding: 10px;
+	border-top: 1px solid #DEDEDE;
+	border-bottom-right-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+	white-space: normal;
+	word-break: break-all;
+}
+
+.Fx_Alert_TipWindow_Container .Alert_CaptionA .Del_Btn{
+	cursor:pointer;
+	padding:0px 5px;
+}
+
+.Fx_Alert_TipWindow_Container .Alert_CaptionA .Del_Btn:hover{
+	color:gray;
+}
+
+/*****************验证弹窗样式******************/
+.validation-tip::before {
+    position: absolute;
+    bottom: -8px;
+    left: 9px;
+    right: auto;
+    display: inline-block !important;
+    border-right: 8px solid transparent;
+    border-top: 8px solid rgb(229, 229, 229);
+    border-left: 8px solid transparent;
+    content: "";
+}
+
+.validation-tip::after {
+    position: absolute;
+    bottom: -7px;
+	left: 10px;
+    right: auto;
+    display: inline-block !important;
+    border-right: 7px solid transparent;
+    border-top: 7px solid rgb(255, 255, 255);
+    border-left: 7px solid transparent;
+    content: "";
+}
+
+.validation-tip{
+	position: absolute;
+	z-index: 20000;
+	border: 1px solid rgb(229, 229, 229);
+	line-height: 20px;
+	background-color: white;
+	padding: 0px 10px;
+	border-radius: 4px;
+}

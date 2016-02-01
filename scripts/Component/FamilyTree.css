@@ -1,0 +1,15 @@
+﻿.TreeComp .addBtnPerson{
+	background-color:#dfb77c;
+	color:white;
+	position: absolute;
+	text-align:center;
+	 -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+	cursor:pointer;
+}
+
+.TreeComp .addBtnPerson:hover{
+	opacity:0.9;
+}
