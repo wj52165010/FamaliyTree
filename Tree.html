@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en" style="height:100%;">
+<head>
+<meta charset="utf-8"/>
+<title>Canvas画图</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<!--基础库相关文件-->
+<link href="style/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<!--弹窗样式-->
+<link href="style/Fx.alert.css" rel="stylesheet" type="text/css"/>
+<link href="style/Fx.Effect.css" rel="stylesheet" type="text/css"/>
+<!--Jquery-->
+<script src="lib/jquery-1.9.0.min.js" type="text/javascript"></script>
+<script src="lib/modernizr-2.6.2.js" type="text/javascript"></script>
+<script src="lib/Fx-all.js" type="text/javascript"></script>
+<script src="lib/until.js" type="text/javascript"></script>
+
+<!--属性结构插件-->
+<link href="scripts/Component/Tree.css" rel="stylesheet" type="text/css"/>
+<script src="scripts/Component/Tree.js" type="text/javascript"></script>
+<!--家族树插件-->
+<link href="scripts/Component/FamilyTree.css" rel="stylesheet" type="text/css"/>
+<!--滚动条插件-->
+<script src="lib/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="scripts/Component/FamilyTree.js" type="text/javascript"></script>
+
+</head>
+	
+<body style="height:100%;">
+	
+	<script>
+		var FamilyTree=new Fx.cls.FamilyTreeComp();
+		FamilyTree.AppendTo('body',{});
+		
+	</script>
+</body>
+</html>

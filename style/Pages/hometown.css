@@ -1,0 +1,125 @@
+.EditerBar {
+  background-color: #d6f6aa;
+  height: 100px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  margin: 10px; }
+  .EditerBar .showNumber {
+    text-align: right;
+    line-height: 20px;
+    margin-right: 10px;
+    color: #93968d; }
+  .EditerBar .editerArea {
+    height: 60px;
+    padding: 0px 10px 10px;
+    color: gray; }
+    .EditerBar .editerArea textArea {
+      width: 100%;
+      height: 100%;
+      resize: none;
+      background: #f3fde5;
+      border: 1px solid #a1c374; }
+  .EditerBar .option {
+    height: 40px;
+    background-color: #aac18b;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px; }
+    .EditerBar .option .item {
+      line-height: 40px;
+      padding: 0px 10px;
+      cursor: pointer; }
+    .EditerBar .option .right {
+      float: right;
+      text-align: right;
+      padding-right: 20px; }
+      .EditerBar .option .right .item {
+        line-height: 40px;
+        padding: 0px 10px;
+        border-right: none;
+        cursor: pointer; }
+
+.message {
+  margin-top: 10px;
+  position: relative;
+  padding-top: 10px; }
+  .message .message_container {
+    margin: 0px 10px 10px;
+    min-height: 140px;
+    background-color: #D6F6AA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px; }
+    .message .message_container .content {
+      min-height: 80px;
+      width: 100%;
+      padding-left: 50px;
+      border-bottom: 2px solid #76964A; }
+      .message .message_container .content .publishName {
+        color: #1A3407;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 40px;
+        padding-left: 10px; }
+      .message .message_container .content .publishContent {
+        color: #4d6f2e;
+        padding-left: 10px;
+        line-height: 30px; }
+      .message .message_container .content .vidieo {
+        min-height: 150px;
+        background-color: #aac18b;
+        margin-right: 60px;
+        padding: 10px; }
+        .message .message_container .content .vidieo .symbol {
+          color: #c1d438;
+          line-height: 30px; }
+        .message .message_container .content .vidieo .name {
+          font-weight: 600;
+          margin: 0px 10px;
+          line-height: 30px; }
+        .message .message_container .content .vidieo .vidieo_container {
+          height: 100px;
+          width: 100px;
+          background-color: gray; }
+        .message .message_container .content .vidieo .vidieo_info {
+          color: #808477;
+          line-height: 30px; }
+    .message .message_container .info {
+      height: 60px;
+      width: 100%; }
+      .message .message_container .info .datetime {
+        font-size: 14px;
+        line-height: 60px;
+        color: #808477;
+        font-weight: 600;
+        margin-left: 60px; }
+      .message .message_container .info .optionBar {
+        float: right;
+        line-height: 60px;
+        padding-right: 20px; }
+        .message .message_container .info .optionBar .item {
+          line-height: 60px;
+          padding: 0px 10px;
+          border-right: 2px solid #808477;
+          cursor: pointer;
+          font-weight: 600;
+          color: #808477; }
+  .message .Icon {
+    background-color: #93968d;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0px; }
+
+.select2-selection__arrow {
+  background-color: #879B66 !important; }
+
+.select2-selection__arrow b {
+  border-color: #4C6F2D transparent transparent !important; }
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-color: transparent transparent #4C6F2D !important; }

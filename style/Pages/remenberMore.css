@@ -1,0 +1,149 @@
+.showContainer {
+  background-color: #D6F6AA;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  wdith: 100%;
+  height: 420px;
+  margin-right: 20px; }
+  .showContainer .NavBar {
+    padding: 0px 40px;
+    background-color: #b2c693;
+    width: 100%;
+    height: 40px; }
+    .showContainer .NavBar .NavBarItem {
+      line-height: 40px;
+      padding: 0px 20px;
+      border-right: 2px solid #76964A;
+      cursor: pointer; }
+  .showContainer .content {
+    padding: 20px 30px; }
+    .showContainer .content .friend {
+      height: 340px;
+      width: 100%;
+      display: none; }
+    .showContainer .content .family {
+      height: 360px;
+      width: 100%;
+      display: none; }
+    .showContainer .content .contentContainer {
+      height: 82px; }
+  .showContainer .inputContainer {
+    float: left;
+    width: 70%; }
+    .showContainer .inputContainer .selectContainer {
+      margin-top: 20px; }
+  .showContainer .btnContainer {
+    margin-left: 70%;
+    height: 100%;
+    padding-top: 20px; }
+
+.searchBtn {
+  display: inline-block;
+  position: relative;
+  padding: 6px 12px;
+  margin-top: 0px; }
+
+.searchBtn img {
+  height: 36px;
+  cursor: pointer; }
+
+.searchBtn span {
+  position: absolute;
+  color: #FFF;
+  top: 14px;
+  left: 58px;
+  font-weight: 600;
+  cursor: pointer; }
+
+.person_container {
+  margin-top: 30px; }
+  .person_container .title_person {
+    color: #76964A;
+    font-size: 16px;
+    font-weight: 600; }
+  .person_container .title_line {
+    display: inline-block;
+    width: 320px;
+    border: 1px solid #76964A; }
+
+.Persion_Avatar {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer; }
+  .Persion_Avatar .avaterContainer {
+    width: 45px;
+    height: 45px;
+    position: relative; }
+    .Persion_Avatar .avaterContainer .avater {
+      width: 45px;
+      height: 45px;
+      position: absolute; }
+    .Persion_Avatar .avaterContainer .checkBox {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      right: 1px;
+      bottom: 1px;
+      background-color: white; }
+    .Persion_Avatar .avaterContainer .checked {
+      background-color: #00FF00; }
+  .Persion_Avatar .name {
+    margin-top: 10px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    width: 45px; }
+
+.content_optionBar {
+  text-align: right; }
+  .content_optionBar .changeBtn {
+    margin-left: 10px; }
+
+.btn {
+  position: relative;
+  margin-top: 0px; }
+  .btn img {
+    height: 36px;
+    cursor: pointer; }
+  .btn span {
+    position: absolute;
+    color: #FFF;
+    top: 14px;
+    left: 34px;
+    font-weight: 600;
+    cursor: pointer; }
+
+.person_search_container {
+  display: none; }
+
+.famliyContainer {
+  width: 100%;
+  height: 50px; }
+  .famliyContainer .item {
+    float: left; }
+
+.familyContentContainer {
+  height: 200px;
+  padding: 40px 40px; }
+
+.familyContentBar {
+  text-align: right; }
+
+.biaoqian img {
+  width: 100px;
+  height: 120px;
+  float: left; }
+.biaoqian .showcontent {
+  display: inline-block;
+  height: 120px;
+  width: 200px;
+  background-color: white;
+  float: left;
+  padding-left: 10px; }
+
+.navActive {
+  color: #547933; }
